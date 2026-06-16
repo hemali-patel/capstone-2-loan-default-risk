@@ -1,0 +1,32 @@
+CAPSTONE TWO - MODEL METRICS
+
+Final Model: Logistic Regression
+
+Model Parameters:
+- max_iter = 1000
+- random_state = 42
+
+Data Preparation:
+- One-hot encoding applied to categorical variables
+- Numerical features standardized using feature scaling
+- Data split into training and testing datasets
+
+Performance Metrics (Test Set):
+Accuracy: 0.99
+Precision: 0.99
+Recall: 0.96
+F1 Score: 0.97
+ROC-AUC: 0.9930
+
+Comparison Model:
+Random Forest Classifier
+
+Random Forest Metrics:
+Accuracy: 0.95
+Precision: 0.91
+Recall: 0.84
+F1 Score: 0.87
+ROC-AUC: 0.9861
+
+Final Model Selection:
+Logistic Regression was selected as the final model because it achieved the highest recall while maintaining excellent overall performance, making it the most suitable model for identifying loan default risk.
